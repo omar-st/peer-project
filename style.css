@@ -1,0 +1,97 @@
+body {
+    margin : 0 auto;  
+    padding : 5px 15px;
+    width: clamp(320px, 90%, 1080px); 
+    box-shadow : 0 0 10px 2px #333;
+    background-color: #363; 
+}
+
+h1, h2, h3 {
+    text-align : center;
+    margin-bottom : 5px;
+}
+
+p {font-size : 18px;}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+article {
+    margin : auto;
+    padding : 2%;
+    display: flex; 
+    flex-direction: column;
+    width : 75%;
+}
+
+.sidebar {
+    margin : auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar img {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  box-shadow : 0 0 10px 2px #333;
+}
+
+td img {
+    height: 270px;
+    width: auto;
+    object-fit: contain;
+}
+
+table, iframe {
+  margin: 0 auto;
+}
+
+table tbody tr:first-child {
+    font-size: 32px;
+}
+
+.cite {
+    font-size : 12px;
+    font-style : italic;
+    font-weight : bold;
+    text-align: right;
+}
+
+nav, article, footer, nav ul li a {
+    border-radius : 10px; }
+
+nav {
+    background : #252;
+    padding : 0 5px;
+}
+
+ul {list-style: none;}
+
+nav ul li {
+    display: inline-block;
+    background : #364;  
+    margin : 1px 8px;
+    padding : 6px 4px 4px;
+}
+
+nav ul li a {
+    color: #000;
+    display : inline-block;
+    font-size : 24px;
+    text-transform : uppercase;
+}
+
+footer {
+    border : 3px solid #123;
+    background-color: #252;
+    text-align : center;
+    padding : 8px;
+    display : flex;
+    justify-content : space-evenly;
+}
